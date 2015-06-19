@@ -21,19 +21,21 @@ Similarly, you can add / remove Cantus, SitSit, etc. rules.
 By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
 
 ### Adding and removing songs
-By default all songs are found in ``src/content/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the ``src/content/index.tex`` to input the song. The index file can be generated automatically by the BASH script ``src/link-doc.sh``, e.g.:
+By default all songs are found in ``src/songs/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the 
+``src/songs/index.tex`` to input the song. The index file can be generated automatically by the BASH script ``src/link-doc.sh``, e.g.:
 ```
 src/ $ sh link-doc.sh Songbook
 Successfully linked 71 files.
 ```
 To remove songs either include the text ``%[LINK-DOC] ignore`` in the header of the song files or simply delete them. However, remember to regenerate the index-file afterwards.
 
-Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recursively in alphabetical order.
+Note: the ``link-doc.sh``-script traverses the directory ``src/songs/`` recursively in alphabetical order.
 
 If you happen to add new songs, then feel free to make a pull request to include them with this distribution.
 
 ## Distributing the songbook
-This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``99-acknowledgements.tex``](src/content/99-acknowledgements.tex)).
+This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing 
+the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``99-acknowledgements.tex``](src/songs/99-acknowledgements.tex)).
 
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 

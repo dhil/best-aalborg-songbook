@@ -25,9 +25,10 @@ declare -a CLIARGUMENTS=($@)
 # -----------------------------------------------
 #   PATH VARIABLES
 # -----------------------------------------------
-BASEDIR='content'
+BASEDIR='songs'
 DOCUMENT="$1"
-INDEXNAME="index.tex"
+TEXEXTENSION='.tex'
+INDEXNAME="index"
 TMPINDEX="$BASEDIR/$SKIPTOKEN$INDEXNAME"
 SOURCEDIR='Source/Bash'
 SCRIPTDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

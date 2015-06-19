@@ -33,7 +33,7 @@ Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recurs
 If you happen to add new songs, then feel free to make a pull request to include them with this distribution.
 
 ### Distributing the songbook
-This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``src/content/99-acknowledgements.tex``](src/content/99-acknowledgements.tex)).
+This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``99-acknowledgements.tex``](src/content/99-acknowledgements.tex)).
 
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 

@@ -1,0 +1,49 @@
+\documentclass[twocolumn,10pt]{article}
+\usepackage[utf8]{inputenc}  % Enable UTF-8 typing
+\usepackage{emptypage}
+\usepackage[OT2,T1]{fontenc} 
+\usepackage{hyperref}        % Interactive PDF
+\usepackage{savetrees}      % Enable to save paper!
+
+%% Songbook packages
+\usepackage[lyric]{songs}
+\usepackage{musixtex}
+
+%% Song aesthetics
+\noversenumbers
+
+%% Song index settings
+\newindex{titleidx}{titleidx} % Index name
+\indexsongsas{titleidx}{\thepage}
+\sepindexesfalse
+
+%% Author, songbook title, year, etc.
+\title{\textbf{\Huge BEST Aalborg\\Summer Course Songbook}}
+\author{\Large BEST Aalborg}
+\date{2014}
+
+\begin{document}
+\onecolumn
+%% Front page: title, etc.
+  \maketitle
+  \thispagestyle{empty}
+  \vspace{4cm}
+
+%% Songbook owner's signature
+  \begin{center}
+    {\huge{This songbook belongs to}}\\
+    \vspace{1cm}
+{\begin{music}\trebleclef\end{music}\huge{\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots}\begin{music}\trebleclef\end{music}}
+   \end{center}
+\clearpage
+%% Include rules section
+\include{rules}
+
+%% Display table of content + song index
+\setcounter{tocdepth}{1}
+\tableofcontents
+\showindex{Songs}{titleidx}
+
+\include{content/index}
+\flushbottom
+\end{document}

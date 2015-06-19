@@ -2743,7 +2743,7 @@ all-pdf: $(default_pdf_targets) ;
 
 .PHONY: index
 index:	all
-	songidx titleidx.sxd
+	songidx titleidx.sxd titleidx.sbx
 
 ifeq "$(strip $(BUILD_STRATEGY))" "latex"
 .PHONY: all-ps

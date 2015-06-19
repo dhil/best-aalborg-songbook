@@ -30,7 +30,7 @@ To remove songs either include the text ``%[LINK-DOC] ignore`` in the header of 
 
 Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recursively in alphabetical order.
 
-If you happen to add news songs, then feel free to make a pull request to include them with this distribution.
+If you happen to add new songs, then feel free to make a pull request to include them with this distribution.
 
 ### Distributing the songbook
 This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``src/content/99-acknowledgements.tex``](src/content/99-acknowledgements.tex).

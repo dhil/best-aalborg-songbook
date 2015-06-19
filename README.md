@@ -13,9 +13,11 @@ A makefile is distributed along with the source. Open a terminal in the ``src/``
 src/ $ make && make index && make
 ```
 The first ``make`` produces a songbook in PDF-format without an index of songs. The ``make index`` generates the index, whilst the second ``make`` includes the index of songs.
+See the file [Songbook.pdf](src/Songbook.pdf) for an example output.
 
 ### Adapting the songbook to your needs
 You can change the title, author, layout and more in the "master" file ``src/Songbook.tex``.
+Similarly, you can add / remove Cantus, SitSit, etc. rules.
 By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
 
 ### Adding and removing songs
@@ -27,6 +29,11 @@ Successfully linked 71 files.
 To remove songs either include the text ``%[LINK-DOC] ignore`` in the header of the song files or simply delete them. However, remember to regenerate the index-file afterwards.
 
 Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recursively in alphabetical order.
+
+If you happen to add news songs, then feel free to make a pull request to include them with this distribution.
+
+### Distributing the songbook
+This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``src/content/99-acknowledgements.tex``](src/content/99-acknowledgements.tex).
 
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 

@@ -26,6 +26,8 @@ Successfully linked 71 files.
 ```
 To remove songs either include the text ``%[LINK-DOC] ignore`` in the header of the song files or simply delete them. However, remember to regenerate the index-file afterwards.
 
+Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recursively in alphabetical order.
+
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 
 The songbook based on the songbook 2012 by [BEST Vienna](http://www.bestvienna.at).

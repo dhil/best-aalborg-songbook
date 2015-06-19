@@ -37,7 +37,7 @@ This songbook is meant to be printed as a "booklet". It is ideal for as a camp f
 
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 
-The songbook based on the songbook 2012 by [BEST Vienna](http://www.bestvienna.at).
+The songbook is based on the songbook 2012 by [BEST Vienna](http://www.bestvienna.at).
 Thanks to the main contributors:
   * Daniel Hillerström, Daniel Rune Jensen, Monika Michael, and Helle Toft from [BEST Aalborg](http://best.aau.dk).
   * Christoffer Brøndum, and Marie Rasmussen from [BEST Copenhagen](http://best.dtu.dk).

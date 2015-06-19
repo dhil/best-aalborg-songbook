@@ -20,7 +20,7 @@ You can change the title, author, layout and more in the "master" file ``src/Son
 Similarly, you can add / remove Cantus, SitSit, etc. rules.
 By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
 
-### Adding and removing songs
+#### Adding and removing songs
 By default all songs are found in ``src/content/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the ``src/content/index.tex`` to input the song. The index file can be generated automatically by the BASH script ``src/link-doc.sh``, e.g.:
 ```
 src/ $ sh link-doc.sh Songbook

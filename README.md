@@ -41,7 +41,7 @@ the songbook. Moreover, please include proper acknowledgements in your print (e.
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 
 The songbook is based on the songbook 2012 by [BEST Vienna](http://www.bestvienna.at).
 Thanks to the main contributors:
-  * Daniel Hillerström, Daniel Rune Jensen, Monika Michael, and Helle Toft from [BEST Aalborg](http://best.aau.dk).
+  * [Daniel Hillerström](https://github.com/Danielrj), [Daniel Rune Jensen](https://github.com/Danielrj), Monika Michael, and Helle Toft from [BEST Aalborg](http://best.aau.dk).
   * Christoffer Brøndum, and Marie Rasmussen from [BEST Copenhagen](http://best.dtu.dk).
   * Kristian Ott Milbo from [BEST Gothenburg](http://http://best.chs.chalmers.se/).
   * Rok Kosmina from [BEST Ljubljana](http://www.bestljubljana.si/en/).

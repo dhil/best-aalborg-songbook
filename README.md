@@ -15,12 +15,12 @@ src/ $ make && make index && make
 The first ``make`` produces a songbook in PDF-format without an index of songs. The ``make index`` generates the index, whilst the second ``make`` includes the index of songs.
 See the file [Songbook.pdf](src/Songbook.pdf) for an example output.
 
-### Adapting the songbook to your needs
+## Adapting the songbook to your needs
 You can change the title, author, layout and more in the "master" file ``src/Songbook.tex``.
 Similarly, you can add / remove Cantus, SitSit, etc. rules.
 By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
 
-#### Adding and removing songs
+### Adding and removing songs
 By default all songs are found in ``src/content/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the ``src/content/index.tex`` to input the song. The index file can be generated automatically by the BASH script ``src/link-doc.sh``, e.g.:
 ```
 src/ $ sh link-doc.sh Songbook
@@ -32,7 +32,7 @@ Note: the ``link-doc.sh``-script traverses the directory ``src/content/`` recurs
 
 If you happen to add new songs, then feel free to make a pull request to include them with this distribution.
 
-### Distributing the songbook
+## Distributing the songbook
 This songbook is meant to be printed as a "booklet". It is ideal for as a camp fire songbook or Cantus codex, SitSit songbook or similar. However familiarise yourself with the license before distributing the songbook. Moreover, please include proper acknowledgements in your print (e.g. include [``99-acknowledgements.tex``](src/content/99-acknowledgements.tex)).
 
 ## Acknowledgements

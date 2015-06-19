@@ -18,7 +18,7 @@ See the file [Songbook.pdf](src/Songbook.pdf) for an example output.
 ## Adapting the songbook to your needs
 You can change the title, author, layout and more in the "master" file ``src/Songbook.tex``.
 Similarly, you can add / remove Cantus, SitSit, etc. rules.
-By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
+By default the ``savetrees``-package is disabled. Enabling this package slightly alters the layout but in turn reduces the number pages. Furthermore, enabling ``savetrees`` may cause the song index to display wrong page numbers for some songs.
 
 ### Adding and removing songs
 By default all songs are found in ``src/songs/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the 

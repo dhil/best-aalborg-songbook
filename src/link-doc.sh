@@ -132,7 +132,7 @@ PrintHeaderInfo()
 {
   echo "$COMMENTMARK Index file for $DOCUMENT"
   echo "$COMMENTMARK Automatically generated at $(date) by $SCRIPTNAME"
-  echo "$COMMENTMARK Do not attempt to alter this file as it will be regenerated upon next compilation by COMPILE-DOC/$SCRIPTNAME"
+  echo "$COMMENTMARK Do not attempt to alter this file as it will be regenerated upon next compilation by $SCRIPTNAME"
 }
 # -----------------------------------------------
 #   COMMANDLINE ARGUMENTS FUNCTIONS

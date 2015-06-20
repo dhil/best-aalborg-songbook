@@ -4,7 +4,7 @@ This songbook was originally created for the [BEST Aalborg](http://best.aau.dk) 
 ## Compilation
 This section explains how to compile the songbook.
 
-### Prerequistes
+### Prerequisites
 The songbook is written in LaTeX using the [Songs](https://songs.sourceforge.net)-package. Thus in order to compile the songbook you must have a working LaTeX distribution installed along with the Songs package. The Songs package is freely available at https://songs.sourceforge.net.
 
 ### Compiling the songbook

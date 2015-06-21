@@ -5,7 +5,7 @@ This songbook was originally created for the [BEST Aalborg](http://best.aau.dk) 
 This section explains how to compile the songbook.
 
 ### Prerequisites
-The songbook is written in LaTeX using the [Songs](https://songs.sourceforge.net)-package. Thus in order to compile the songbook you must have a working LaTeX distribution installed along with the Songs package. The Songs package is freely available at https://songs.sourceforge.net.
+The songbook is written in [LaTeX](http://www.latex-project.org/) using the [Songs](https://songs.sourceforge.net)-package. Thus in order to compile the songbook you must have a working [LaTeX](http://www.latex-project.org/) distribution installed along with the Songs package. The Songs package is freely available at https://songs.sourceforge.net.
 
 ### Compiling the songbook
 A makefile is distributed along with the source. Open a terminal in the ``src/``-directory and type:

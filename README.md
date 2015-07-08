@@ -4,8 +4,8 @@ This songbook was originally created for the [BEST Aalborg](http://best.aau.dk) 
 ## Compilation
 This section explains how to compile the songbook.
 
-### Prerequistes
-The songbook is written in LaTeX using the [Songs](https://songs.sourceforge.net)-package. Thus in order to compile the songbook you must have a working LaTeX distribution installed along with the Songs package. The Songs package is freely available at https://songs.sourceforge.net.
+### Prerequisites
+The songbook is written in [LaTeX](http://www.latex-project.org/) using the [Songs](https://songs.sourceforge.net)-package. Thus in order to compile the songbook you must have a working [LaTeX](http://www.latex-project.org/) distribution installed along with the Songs package. The Songs package is freely available at https://songs.sourceforge.net.
 
 ### Compiling the songbook
 A makefile is distributed along with the source. Open a terminal in the ``src/``-directory and type:
@@ -18,7 +18,7 @@ See the file [Songbook.pdf](src/Songbook.pdf) for an example output.
 ## Adapting the songbook to your needs
 You can change the title, author, layout and more in the "master" file ``src/Songbook.tex``.
 Similarly, you can add / remove Cantus, SitSit, etc. rules.
-By default the ``savetrees``-package is enabled. Disabling this package slightly alters the layout.
+By default the ``savetrees``-package is disabled. Enabling this package slightly alters the layout but in turn reduces the number pages. Furthermore, enabling ``savetrees`` may cause the song index to display wrong page numbers for some songs.
 
 ### Adding and removing songs
 By default all songs are found in ``src/songs/``-directory. Simply create a new ``tex``-file in that directory (or any subdirectory). To include the new song in the songbook edit the 
@@ -39,7 +39,7 @@ the songbook. Moreover, please include proper acknowledgements in your print (e.
 
 ## Acknowledgements
 The songbook is created by [BEST Aalborg](http://best.aau.dk) (summer course team 2013) with aid by [BEST Copenhagen](http://best.dtu.dk) and [BEST Gothenburg](http://http://best.chs.chalmers.se/). 
-The songbook is based on the songbook 2012 by [BEST Vienna](http://www.bestvienna.at).
+The songbook is based on [BEST Vienna](http://www.bestvienna.at)'s songbook, edition 2012.
 Thanks to the main contributors:
   * [Daniel Hillerström](https://github.com/Danielrj), [Daniel Rune Jensen](https://github.com/Danielrj), Monika Michael, and Helle Toft from [BEST Aalborg](http://best.aau.dk).
   * Christoffer Brøndum, and Marie Rasmussen from [BEST Copenhagen](http://best.dtu.dk).

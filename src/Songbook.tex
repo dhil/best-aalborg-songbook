@@ -11,6 +11,10 @@
 
 %% Song aesthetics
 \noversenumbers
+\setlength\baselineadj{0.3em}
+\renewcommand{\colbotglue}    % Compact verses
+             {0pt plus .5\textheight minus 0pt}
+
 
 %% Song index settings
 \newindex{titleidx}{titleidx} % Index name
@@ -20,7 +24,7 @@
 %% Author, songbook title, year, etc.
 \title{\textbf{\Huge BEST Aalborg\\Summer Course Songbook}}
 \author{\Large BEST Aalborg}
-\date{2014}
+\date{\the\year}
 
 \begin{document}
 \onecolumn

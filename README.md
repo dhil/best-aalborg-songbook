@@ -25,7 +25,7 @@ By default all songs are found in ``src/songs/``-directory. Simply create a new 
 ``src/songs/index.tex`` to input the song. The index file can be generated automatically by the BASH script ``src/link-doc.sh``, e.g.:
 ```
 src/ $ sh link-doc.sh Songbook
-Successfully linked 71 files.
+Successfully linked 70 files.
 ```
 To remove songs either include the text ``%[LINK-DOC] ignore`` in the header of the song files or simply delete them. However, remember to regenerate the index-file afterwards.
 

@@ -1,5 +1,5 @@
 # BEST Aalborg Songbook
-This songbook was originally created for the [BEST Aalborg](http://best.aau.dk) Summer Course 2013. It was used as a camp fire songbook, and as a codex for the [cantus](https://en.wikipedia.org/wiki/Cantus) we held during the summer course.
+This songbook was originally created for the [BEST Aalborg](http://best.aau.dk) Summer Course 2013. It was used as a camp fire songbook, and as codex for the [cantus](https://en.wikipedia.org/wiki/Cantus) we held during the summer course.
 
 ## Compilation
 This section explains how to compile the songbook.
